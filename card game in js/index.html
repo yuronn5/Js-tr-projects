@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <button onClick=magic();>click me to magic</button>
+</header>
+<div class="wrapper">
+    <div id="main" class="active">
+        THIS IS THE GAME
+        <div class="gameContent">
+            <div id="contextText"></div>
+            <input id="one"/>
+            <button id="pressButton" onClick=game();>press it</button>
+        </div>
+        <div id="restartContent">
+            <div id="restartVal"></div>
+            <button onClick=restartFunc();>Restart</button>
+            <div id="inputNumbers"></div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>

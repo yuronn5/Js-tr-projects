@@ -1,0 +1,40 @@
+#main {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: yellow;
+    border: 1px solid;
+    padding: 20px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    max-width: 500px;
+    margin: auto;
+}
+.active {
+    display: none;
+}
+.gameContent {
+    margin-top: 30px;
+}
+#restartContent {
+    margin-top: 20px;
+    display: none;
+}
+#restartVal {
+    margin-bottom: 20px;
+}
+
+#inputNumbers > span {
+    margin-top: 10px;
+    padding: 5px;
+}
+.winner {
+    color: red;
+}
+header {
+    text-align: center;
+    margin-top: 20px;
+}
